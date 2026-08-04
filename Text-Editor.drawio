@@ -1,0 +1,361 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="h6ujznAYLVTGsAdO1lip">
+    <mxGraphModel dx="1717" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="MyString" vertex="1">
+          <mxGeometry height="520" width="280" x="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-19" parent="EsSoZDl1IDZHpm6sg7fH-6" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-20" parent="EsSoZDl1IDZHpm6sg7fH-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-21" parent="EsSoZDl1IDZHpm6sg7fH-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-22" parent="EsSoZDl1IDZHpm6sg7fH-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-23" parent="EsSoZDl1IDZHpm6sg7fH-22" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-24" parent="EsSoZDl1IDZHpm6sg7fH-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-25" parent="EsSoZDl1IDZHpm6sg7fH-24" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-30" parent="EsSoZDl1IDZHpm6sg7fH-6" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-int size&amp;nbsp;&lt;div&gt;&amp;nbsp;-char* Cs&lt;/div&gt;&lt;div&gt;&amp;nbsp;+MyString()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+MyString(char c)&lt;/div&gt;&lt;div&gt;&amp;nbsp;+MyString(const char* p)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+MyString(int n, char c)&lt;/div&gt;&lt;div&gt;&amp;nbsp;+MyString(int num)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+~MyString()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+insert_at_end(char c)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+MyString(ifstream&amp;amp; rdr, const char* filename)&lt;br/&gt;        +MyString(const MyString&amp;amp; other)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+print() const&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+length() const&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+CharacterAt(int i) const&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+ReplaceAt(int i, char c)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+replaceFirst(char c)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+Shallowcopy(const MyString&amp;amp; other)&lt;br/&gt;        +deepCopy(const MyString&amp;amp; other)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+stoi() int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+itos(int num) MyString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+Trim() const MyString&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+clear() void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+ToUpper() MyString&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+ToLower() MyString&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+Reverse() const MyString&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;+isEqual(const MyString&amp;amp; other) const bool&lt;br/&gt;        +isLess(const MyString&amp;amp; other) const bool&lt;br/&gt;        +isGreater(const MyString&amp;amp; other) const bool&lt;br/&gt;        +split(char delimeter, int&amp;amp; count) MyString*&lt;br/&gt;        +isDelimiter(char ch, const char* delim) bool&lt;br/&gt;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&lt;br/&gt;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&lt;br/&gt;        +operator+(const MyString&amp;amp; other) const MyString&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="540" width="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-41" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Line" vertex="1">
+          <mxGeometry height="170" width="280" x="680" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-42" parent="EsSoZDl1IDZHpm6sg7fH-41" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-43" parent="EsSoZDl1IDZHpm6sg7fH-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-44" parent="EsSoZDl1IDZHpm6sg7fH-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-45" parent="EsSoZDl1IDZHpm6sg7fH-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-46" parent="EsSoZDl1IDZHpm6sg7fH-45" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-47" parent="EsSoZDl1IDZHpm6sg7fH-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-48" parent="EsSoZDl1IDZHpm6sg7fH-47" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-49" parent="EsSoZDl1IDZHpm6sg7fH-41" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="-MyString text&lt;br/&gt;        +Line()&lt;br/&gt;        +Line(const char* str)&lt;br/&gt;        +Line(const MyString&amp;amp; str)&lt;br/&gt;        +getText() MyString&amp;amp;&lt;br/&gt;        +getText() const MyString&amp;amp;&lt;br/&gt;        +setText(const MyString&amp;amp; str) void&lt;br/&gt;        +Line(const Line&amp;amp; other)&lt;br/&gt;        +operator=(const Line&amp;amp; other) Line&amp;amp;" vertex="1">
+          <mxGeometry height="170" width="280" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-50" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Paragraph" vertex="1">
+          <mxGeometry height="200" width="280" x="60" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-51" parent="EsSoZDl1IDZHpm6sg7fH-50" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-52" parent="EsSoZDl1IDZHpm6sg7fH-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-53" parent="EsSoZDl1IDZHpm6sg7fH-52" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-54" parent="EsSoZDl1IDZHpm6sg7fH-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-55" parent="EsSoZDl1IDZHpm6sg7fH-54" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-56" parent="EsSoZDl1IDZHpm6sg7fH-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-57" parent="EsSoZDl1IDZHpm6sg7fH-56" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-58" parent="EsSoZDl1IDZHpm6sg7fH-50" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-Line** lines&lt;div&gt;&amp;nbsp;-int linecount&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;-int capacity&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;-resize() void&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+Paragraph()&lt;/div&gt;&lt;div&gt;&amp;nbsp;+~Paragraph()&lt;br/&gt;        +addLine(const Line&amp;amp; newLine) void&lt;br/&gt;        +getLines() Line**&lt;br/&gt;        +getLineCount() const int&lt;br/&gt;        +Paragraph(const Paragraph&amp;amp; other)&lt;br/&gt;        +operator=(const Paragraph&amp;amp; other) Paragraph&amp;amp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-60" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Sections" vertex="1">
+          <mxGeometry height="210" width="280" x="660" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-61" parent="EsSoZDl1IDZHpm6sg7fH-60" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-62" parent="EsSoZDl1IDZHpm6sg7fH-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-63" parent="EsSoZDl1IDZHpm6sg7fH-62" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-64" parent="EsSoZDl1IDZHpm6sg7fH-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-65" parent="EsSoZDl1IDZHpm6sg7fH-64" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-66" parent="EsSoZDl1IDZHpm6sg7fH-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-67" parent="EsSoZDl1IDZHpm6sg7fH-66" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-68" parent="EsSoZDl1IDZHpm6sg7fH-60" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-MyString sectionTitle&amp;nbsp;&lt;div&gt;&amp;nbsp;-Paragraph** paragraphs&lt;/div&gt;&lt;div&gt;&amp;nbsp;-int paracount&lt;/div&gt;&lt;div&gt;&amp;nbsp;-int capacity&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;-resize() void&lt;/div&gt;&lt;div&gt;&amp;nbsp;+Sections()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+Sections(const MyString&amp;amp; title)&lt;br/&gt;        +~Sections()&lt;br/&gt;        +addParagraph(Paragraph* newPara) void&lt;br/&gt;        +getParagraphs() Paragraph**&lt;br/&gt;        +getParaCount() const int&lt;br/&gt;        +getTitle() const MyString&lt;/div&gt;" vertex="1">
+          <mxGeometry height="205" width="280" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-70" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Chapters" vertex="1">
+          <mxGeometry height="210" width="280" x="1210" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-71" parent="EsSoZDl1IDZHpm6sg7fH-70" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-72" parent="EsSoZDl1IDZHpm6sg7fH-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-73" parent="EsSoZDl1IDZHpm6sg7fH-72" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-74" parent="EsSoZDl1IDZHpm6sg7fH-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-75" parent="EsSoZDl1IDZHpm6sg7fH-74" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-76" parent="EsSoZDl1IDZHpm6sg7fH-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-77" parent="EsSoZDl1IDZHpm6sg7fH-76" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-78" parent="EsSoZDl1IDZHpm6sg7fH-70" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-MyString ChapterTitle&lt;br/&gt;        -Sections** sections&lt;br/&gt;        -int sectioncount&lt;br/&gt;        -int capacity&lt;br/&gt;        -resize() void&lt;br/&gt;        +Chapters()&lt;br/&gt;        +Chapters(const MyString&amp;amp; title)&lt;br/&gt;        +~Chapters()&lt;br/&gt;        +addChapters(Sections* newPara) void&lt;br/&gt;        +getsections() Sections**&lt;br/&gt;        +getSectionCount() const int&lt;br/&gt;        +getTitle() const MyString" vertex="1">
+          <mxGeometry height="205" width="280" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-79" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Documents" vertex="1">
+          <mxGeometry height="200" width="280" x="1280" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-80" parent="EsSoZDl1IDZHpm6sg7fH-79" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-81" parent="EsSoZDl1IDZHpm6sg7fH-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-82" parent="EsSoZDl1IDZHpm6sg7fH-81" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-83" parent="EsSoZDl1IDZHpm6sg7fH-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-84" parent="EsSoZDl1IDZHpm6sg7fH-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-85" parent="EsSoZDl1IDZHpm6sg7fH-80" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-86" parent="EsSoZDl1IDZHpm6sg7fH-85" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-87" parent="EsSoZDl1IDZHpm6sg7fH-79" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-MyString docName&lt;br/&gt;        -Chapters** chapters&lt;br/&gt;        -int chapterCount&lt;br/&gt;        -int capacity&lt;br/&gt;        -resize() void&lt;br/&gt;        +Document()&lt;br/&gt;        +Document(const MyString&amp;amp; name)&lt;br/&gt;        +~Document()&lt;br/&gt;        +addChapter(Chapters* newCh) void&lt;br/&gt;        +getChapters() Chapters**&lt;br/&gt;        +getChapterCount() const int" vertex="1">
+          <mxGeometry height="205" width="280" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-124" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="Text Editor" vertex="1">
+          <mxGeometry height="580" width="280" x="800" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-125" parent="EsSoZDl1IDZHpm6sg7fH-124" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-126" parent="EsSoZDl1IDZHpm6sg7fH-125" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-127" parent="EsSoZDl1IDZHpm6sg7fH-126" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-128" parent="EsSoZDl1IDZHpm6sg7fH-125" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-129" parent="EsSoZDl1IDZHpm6sg7fH-128" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-130" parent="EsSoZDl1IDZHpm6sg7fH-125" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-131" parent="EsSoZDl1IDZHpm6sg7fH-130" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-132" parent="EsSoZDl1IDZHpm6sg7fH-124" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;-Document* doc&lt;br&gt;        -int cr&lt;br&gt;        -int cc&lt;br&gt;        -Paragraph activePara&lt;br&gt;        -MyString lastCommand&lt;br&gt;        -char lastPrefix&lt;br&gt;        -Line* yankedLine&lt;br&gt;        -bool hasYankedData&lt;br&gt;        -ParagraphSnapshot* undoStack&lt;br&gt;        -int undoCount&lt;br&gt;        -int undoCapacity&lt;br&gt;        -ParagraphSnapshot* redoStack&lt;br&gt;        -int redoCount&lt;br&gt;        -int redoCapacity&lt;br&gt;        -bool isSelecting&lt;br&gt;        -int selStartRow&lt;br&gt;        -int selStartCol&lt;br&gt;        -MyString selectedText&lt;br&gt;        -MyString currentCommandStr&lt;br&gt;        -bool showLineNumbers&lt;br&gt;        -bool isModified&lt;br&gt;        -MyString lastSearchPattern&lt;br&gt;        -bool lastSearchDirection&lt;br&gt;        -SearchMatch* searchResults&lt;br&gt;        -int matchCount&lt;br&gt;        -int currentMatchIdx&lt;br&gt;        -clearRedoStack() void&lt;br&gt;        -pushUndo() void&lt;br&gt;        -pushRedo() void&lt;br&gt;        -splitLineAtCursor() void&lt;br&gt;        -mergeLineWithNext() void&lt;br&gt;        -clearSearchResults() void&lt;br&gt;        +TextEditor()&lt;br&gt;        +~TextEditor()&lt;br&gt;        +insertChar(int ch) void&lt;br&gt;        +handleNormalModeInput(const MyString&amp;amp; command) void&lt;br&gt;        +render(bool insertMode) void" vertex="1">
+          <mxGeometry height="580" width="280" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-133" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;startSize=23;" value="ParagraphSnapShot" vertex="1">
+          <mxGeometry height="150" width="280" x="180" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-134" parent="EsSoZDl1IDZHpm6sg7fH-133" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="45" width="60" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-135" parent="EsSoZDl1IDZHpm6sg7fH-134" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-136" parent="EsSoZDl1IDZHpm6sg7fH-135" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="&#xa;+MyString()&#xa;        +MyString(char c)&#xa;        +MyString(const char* p)&#xa;        +MyString(int n, char c)&#xa;        +MyString(int num)&#xa;        +~MyString()&#xa;        +insert_at_end(char c)&#xa;        +MyString(ifstream&amp;amp; rdr, const char* filename)&#xa;        +MyString(const MyString&amp;amp; other)&#xa;        +print() const&#xa;        +length() const&#xa;        +CharacterAt(int i) const&#xa;        +ReplaceAt(int i, char c)&#xa;        +replaceFirst(char c)&#xa;        +Shallowcopy(const MyString&amp;amp; other)&#xa;        +deepCopy(const MyString&amp;amp; other)&#xa;        +stoi() int&#xa;        +itos(int num) MyString&#xa;        +Trim() const MyString&#xa;        +clear() void&#xa;        +ToUpper() MyString&#xa;        +ToLower() MyString&#xa;        +Reverse() const MyString&#xa;        +isEqual(const MyString&amp;amp; other) const bool&#xa;        +isLess(const MyString&amp;amp; other) const bool&#xa;        +isGreater(const MyString&amp;amp; other) const bool&#xa;        +split(char delimeter, int&amp;amp; count) MyString*&#xa;        +isDelimiter(char ch, const char* delim) bool&#xa;        +tokenize(const char* delimeter, int&amp;amp; count) MyString*&#xa;        +operator=(const MyString&amp;amp; other) MyString&amp;amp;&#xa;        +operator+(const MyString&amp;amp; other) const MyString&#xa;&#xa;" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-137" parent="EsSoZDl1IDZHpm6sg7fH-134" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-138" parent="EsSoZDl1IDZHpm6sg7fH-137" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-139" parent="EsSoZDl1IDZHpm6sg7fH-134" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
+          <mxGeometry height="15" width="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-140" parent="EsSoZDl1IDZHpm6sg7fH-139" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="15" width="60" as="geometry">
+            <mxRectangle height="15" width="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-141" parent="EsSoZDl1IDZHpm6sg7fH-133" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&amp;nbsp;+MyString* lineTexts&lt;br&gt;        +int lineCount&lt;br&gt;        +ParagraphSnapshot()&lt;br&gt;        +~ParagraphSnapshot()&lt;br&gt;        +ParagraphSnapshot(const ParagraphSnapshot&amp;amp; other)&lt;br&gt;        +operator=(const ParagraphSnapshot&amp;amp; other) ParagraphSnapshot&amp;amp;" vertex="1">
+          <mxGeometry height="170" width="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-142" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-79" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.893;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="EsSoZDl1IDZHpm6sg7fH-124" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="640" y="1340" as="sourcePoint" />
+            <mxPoint x="800" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-143" edge="1" parent="1" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.091;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="EsSoZDl1IDZHpm6sg7fH-41" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="560" y="230" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-144" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-41" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1.009;entryY=0.322;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="EsSoZDl1IDZHpm6sg7fH-58" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="450" y="740" as="sourcePoint" />
+            <mxPoint x="610" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-145" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-58" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="500" y="920" as="sourcePoint" />
+            <mxPoint x="660" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-146" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-60" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1050" y="590" as="sourcePoint" />
+            <mxPoint x="1210" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-147" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-78" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.151;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="EsSoZDl1IDZHpm6sg7fH-79" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1120" y="920" as="sourcePoint" />
+            <mxPoint x="1280" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-148" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-30" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.986;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="EsSoZDl1IDZHpm6sg7fH-60" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="500" y="860" as="sourcePoint" />
+            <mxPoint x="660" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-149" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-30" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1.009;exitY=0.422;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1050" y="460" as="sourcePoint" />
+            <mxPoint x="1210" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-150" edge="1" parent="1" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="470" />
+            </Array>
+            <mxPoint x="570" y="270" as="sourcePoint" />
+            <mxPoint x="1280" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-151" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-133" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="640" y="1300" as="sourcePoint" />
+            <mxPoint x="800" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-152" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-50" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="640" y="1360" as="sourcePoint" />
+            <mxPoint x="800" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-153" edge="1" parent="1" source="EsSoZDl1IDZHpm6sg7fH-30" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.574;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="EsSoZDl1IDZHpm6sg7fH-124" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="940" />
+            </Array>
+            <mxPoint x="640" y="1400" as="sourcePoint" />
+            <mxPoint x="800" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EsSoZDl1IDZHpm6sg7fH-155" edge="1" parent="1" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="EsSoZDl1IDZHpm6sg7fH-124" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="860" />
+            </Array>
+            <mxPoint x="960" y="680" as="sourcePoint" />
+            <mxPoint x="1010" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
